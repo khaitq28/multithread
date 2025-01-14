@@ -18,7 +18,7 @@ public class LesOne {
             return 100;
         });
 
-//        Thread.sleep(1);
+        Thread.sleep(1);
 
         System.out.println("f1.isDone() = " + f1.isDone());
 
