@@ -12,11 +12,11 @@ The threads should alternate their output, so the sequence is in the correct ord
 Focus: Tests coordination between two threads and the ability to manage alternate signaling,
 often using shared locks or flags.
  */
-public class Problem3 {
+public class OddEven {
 
     public static void main(String[] args) throws InterruptedException {
 
-        new Problem3().sol1();
+        new OddEven().sol1();
     }
 
     private Semaphore semaphore1 = new Semaphore(1);

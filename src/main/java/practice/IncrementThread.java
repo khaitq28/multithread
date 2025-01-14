@@ -7,14 +7,13 @@ Create a program with two threads that both increment a shared counter 1,000 tim
 Use AtomicInteger for the counter.
 Then, modify it to use synchronized blocks to ensure thread safety without using AtomicInteger.
  */
-public class Problem2 {
+public class IncrementThread {
     public static void main(String[] args) throws InterruptedException {
 
-//        sol1();
 
-//        new Problem2().sol2();
+        new IncrementThread().sol2();
 
-        new Problem2().sol1();
+//        new IncrementThread().sol1();
     }
 
     private Integer i = 0;
